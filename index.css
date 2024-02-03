@@ -1,0 +1,210 @@
+/* FONTS  */
+/* young-serif  */
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* outfit */
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Outfit', sans-serif;
+}
+.roman{
+  font-family: 'Young Serif', serif;
+  color: rgb(132, 59, 59);
+}
+html,body{
+  background-color: rgb(245, 230, 230);
+}
+span{
+  color: black;
+}
+img{
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+  padding: 2rem ;
+  border-radius: 3rem;
+}
+.Omelette{
+  margin-top: 7rem;
+  background-color: aliceblue;
+  max-width: 720px;
+  border-radius: 2rem;
+}
+.Omelette-info{
+  max-width: 650px;
+  margin: 0 auto;
+}
+.firstInfo h1{
+   margin-bottom: 1rem;
+   font-size: 2.5rem;
+   color: black;
+}
+.firstInfo p{
+   margin-bottom: 3rem; 
+}
+.Preparation h4{
+  margin: 0rem 2.2rem;
+  padding: 0.5rem 0;
+  color: rgb(124, 33, 115);
+}
+.Preparation ul{
+    margin: 0 2.3rem;
+  padding-top: 0;
+}
+.Ingredients{
+  padding: 0;
+  border-bottom: 1px solid rgba(115, 110, 110, 0.178);
+}
+.Instructions{
+  padding: 1.5rem 0 0 0;
+  border-bottom: 1px solid rgba(115, 110, 110, 0.178);
+  
+}
+.list-Instructions {
+  line-height: 1.7rem;
+}
+ span{
+  color: #201f1f;
+  font-weight: 600;
+}
+
+
+ ul,ol{
+  padding:  0rem 1.5rem;
+  margin: 1rem 0;
+  line-height: 2.4rem; 
+}
+ li{
+  color: rgb(112, 33, 33);
+  font-weight:600 ;
+}
+li p {
+  display: inline;
+  color: #000;
+  font-weight: 400;
+}
+h3{
+  font-size: 1.7rem;
+}
+li{
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.Nutrition{
+  padding: 2rem 0;
+
+}
+.Nutrition h5{
+  color: black;
+  margin: 1rem 0;
+  font-weight: 400;
+}
+.info-nutrition  {
+line-height: 2.4rem;
+ margin: 1.5rem 0;
+}
+.dados{
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(157, 146, 146, 0.606);
+}
+.dados p{
+  width: 5px;
+  font-weight:400 ;
+}
+.dados:last-child{
+ border:none;
+}
+.dados span{
+  color: rgb(112, 33, 33);
+  
+}
+.title{
+  margin: 0 2rem;
+  color: #000000;
+}
+
+.attribution{
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 425px) {
+  .Omelette{
+    width: 100%;
+    margin-top: 0;
+  }
+  img{
+    width: 27rem;
+   padding: 0;
+   border-radius: 0;
+  }
+  .Omelette-info{
+    margin: 0 2rem;
+  }
+  .firstInfo h1{
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    color: black;
+ }
+ .firstInfo p{
+    margin-bottom: 3rem; 
+    color:rgb(118, 113, 113) ;
+ }
+ .Preparation h4{
+  font-size: 1.2rem;
+   margin: 0rem 2.2rem;
+   padding:  0;
+   color: rgb(124, 33, 115);
+ }
+
+ .Preparation ul{
+    margin: 0.9rem  2.3rem 2rem ;
+   padding-top: 0;
+   line-height: 1.7rem;
+ }
+
+ .Instructions{
+   padding: 1.5rem 0 0 0;
+   border-bottom: 1px solid rgba(115, 110, 110, 0.178);
+   
+ }
+ .list-Instructions {
+   line-height: 2rem;
+ }
+ 
+ 
+ 
+  ul,ol{
+   padding:  0rem 1.5rem;
+   margin: 1rem 0;
+   line-height: 1.8rem; 
+ }
+ 
+ 
+ .Nutrition{
+   padding: 2rem 0;
+ 
+ }
+ .Nutrition h5{
+  font-size: 1.1rem;
+   color: rgb(118, 113, 113);
+   margin: 1rem 0;
+   font-weight: 400;
+ }
+ 
+
+
+ .title{
+   margin: 0 2rem;
+   color:rgb(93, 90, 90);
+ }
+ 
+ .attribution{
+   font-size: 0.8rem;
+   margin-bottom: 5rem;
+ }
+}
